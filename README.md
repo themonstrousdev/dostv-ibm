@@ -5,6 +5,10 @@
 #
 ## Table of Contents
   1. [Steps to Tracking the Repo](#track-the-repository)
+    
+     - [Clone Repository](#clone-repository)
+     - [Update Repository](#update-repository)
+     - [View Site](#view-mock-up-website)
   
   2. [Contributing Code](#code-sharing-with-git)
 
@@ -64,4 +68,18 @@
 
     <img src="./assets/guide/git-menu.jpg">
 
-8. **Before starting any code session, always do a pull request.** Open the Git Menu and select `Pull from...`. Choose the option `origin` > `origin/master`. Check that your Git commit input bar 
+8. **Before starting any code session, always do a pull request.** Open the Git Menu and select `Pull from...`. Choose the option `origin` > `origin/master`. Check that your Git commit input bar (located under the Git sidebar header) says `Message (Ctrl+Enter to commit on 'dev')`. If it does not, follow step 7.
+
+9. **After a coding session, always stage, commit, and push.** All changes should appear under the `Changes` category in your Git tab. To stage a change, hover over the file name, and click the `+` sign that appears on the left hand side.
+
+    <img src="./assets/guide/stage.jpg">
+
+    The file/s you've staged, should then appear in a new category called `Staged Changes`.
+
+    <img src="./assets/guide/staged.jpg">
+
+    Type in the Git commit input bar the type of change these files are.
+
+    <img src="./assets/guide/commit-message.jpg">
+
+    Hit `Ctrl + Enter` and the staged changes should then be committed. Once you have staged and committed all changes, open the Git menu and select `Push`.
