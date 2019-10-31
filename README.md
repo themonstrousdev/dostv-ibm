@@ -57,9 +57,11 @@
 4. [Download Visual Studio Code](https://code.visualstudio.com/)
 5. [Clone the Repo](#clone-repository)
 6. Open VSCode and open your `dostv-ibm` folder.
-7. **Before starting to code, always do a pull request.** Navigate to the third tab on the left (Git symbol) 
-
+7. **WHEN YOU FIRST OPEN VSCODE AND THE REPOSITORY, DO NOT SKIP THIS STEP.** Navigate to the Git tab (third tab on the left) 
     <img src="./assets/guide/git.jpg">
 
-8. Select the three small buttons on the top right hand-side of the sidebar and select `Pull from...`. Choose the option `origin`.
-<img src="./assets/guide/git-menu.jpg">
+    Open the Git Menu (three small buttons on the top right hand-side of the sidebar) and select `Check out to...` and choose the option `origin/dev`.
+
+    <img src="./assets/guide/git-menu.jpg">
+
+8. **Before starting any code session, always do a pull request.** Open the Git Menu and select `Pull from...`. Choose the option `origin` > `origin/master`. Check that your Git commit input bar 
