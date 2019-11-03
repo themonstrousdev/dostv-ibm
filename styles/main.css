@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+}
+
+.card.video {
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+}
+
+.card.video:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+hr {
+  height: .05rem;
+  background: var(--secondary);
+}
